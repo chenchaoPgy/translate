@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'part/head.dart';
 import 'part/text_field.dart';
+import 'part/record_list_page.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -72,7 +73,7 @@ class Home extends StatelessWidget {
             HeadPart(),
             TextDemo(),
             Container(height: 10,),
-            
+            RecordListDemo(),
           ],
         ),
       ),
